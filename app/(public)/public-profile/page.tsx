@@ -71,7 +71,7 @@ export default async function PublicProfilePage({ searchParams }: PublicProfileP
       <section className="rounded-xl bg-white p-6 shadow-soft">
         <h2 className="text-xl font-semibold text-brand-teal">Cuidados especiales</h2>
         <ul className="mt-4 space-y-2 text-sm text-brand-dark/80">
-          {pet.allergies?.map((item) => (
+          {pet.allergies?.map((item: string) => (
             <li key={item}>Alergia: {item}</li>
           ))}
           {pet.medical_notes && <li>Notas médicas: {pet.medical_notes}</li>}
