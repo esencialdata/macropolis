@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+.pnp.cjs
+.pnp.loader.mjs
+
+# Build outputs
+.next/
+out/
+coverage/
+
+# Environment
+.env*
+.supabase
+
+# Editor
+.vscode/
+.idea/
+*.swp
